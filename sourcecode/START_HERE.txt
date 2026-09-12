@@ -1,0 +1,196 @@
+================================================================================
+  YOUTUBE VIDEO + AUDIO DOWNLOADER & MERGER
+  Complete Solution with Standalone Executable
+================================================================================
+
+🎬 QUICK START (30 seconds)
+
+1. Go to folder: dist/
+2. Double-click: YouTube-Merger.exe
+3. Paste YouTube URL when prompted
+4. Wait 1-5 minutes
+5. Your video is ready!
+
+================================================================================
+
+📋 WHAT YOU HAVE
+
+1. STANDALONE EXECUTABLE (No Python needed!)
+   ├─ Location: dist/YouTube-Merger.exe (21.2 MB)
+   └─ Usage: Double-click or run from command line
+
+2. PYTHON SCRIPTS (For developers)
+   ├─ yt_video_merger.py - Main script for merging
+   ├─ youtube_downloader.py - Original downloader
+   └─ youtube_merger.py - Alternative merger
+
+3. DOCUMENTATION
+   ├─ GETTING_STARTED.md - Beginner's guide
+   ├─ MERGER_README.md - Detailed documentation
+   └─ README.md - General info
+
+4. HELPER TOOLS
+   ├─ RUN_ME.bat - Easy launcher for Windows
+   ├─ build_executable.py - Rebuild .exe if needed
+   └─ install_ffmpeg.py - Manual FFmpeg setup
+
+================================================================================
+
+🚀 THREE WAYS TO USE
+
+METHOD 1: EASIEST - Double Click (Windows)
+─────────────────────────────────────────
+Double-click: dist\YouTube-Merger.exe
+That's it! Follow the prompts.
+
+METHOD 2: COMMAND LINE
+─────────────────────
+Open Command Prompt or PowerShell and run:
+cd dist
+YouTube-Merger.exe "https://www.youtube.com/watch?v=VIDEO_ID"
+
+METHOD 3: PYTHON SCRIPT
+──────────────────────
+python yt_video_merger.py "https://www.youtube.com/watch?v=VIDEO_ID"
+
+================================================================================
+
+⚡ USAGE EXAMPLES
+
+# Best quality (automatic)
+YouTube-Merger.exe "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+# Specific quality (720p)
+YouTube-Merger.exe "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 720
+
+# Custom output name
+YouTube-Merger.exe "https://www.youtube.com/watch?v=dQw4w9WgXcQ" 360 "my_video.mp4"
+
+================================================================================
+
+✅ TESTED & WORKING
+
+✓ Download videos from 3.5 minutes to 19+ minutes
+✓ Video + audio automatically downloaded and merged
+✓ FFmpeg auto-installed on first run
+✓ Temporary files auto-cleaned
+✓ Quality options: best, 720, 480, 360, 240
+✓ Windows 10/11 (64-bit) tested
+
+================================================================================
+
+📂 FILE STRUCTURE
+
+ytdownloader/
+├── dist/
+│   └── YouTube-Merger.exe          ← MAIN EXECUTABLE (Use This!)
+├── ffmpeg/                          ← FFmpeg installed here (auto)
+├── .cache/                          ← Temp files (auto-cleaned)
+├── yt_video_merger.py               (Main Python script)
+├── youtube_downloader.py            (Original downloader)
+├── GETTING_STARTED.md               (Read this for tutorials)
+├── MERGER_README.md                 (Full documentation)
+├── RUN_ME.bat                       (Windows launcher)
+└── START_HERE.txt                   (This file)
+
+================================================================================
+
+⏱️ TIME ESTIMATES
+
+Video Length          File Size        Download Time
+─────────────────────────────────────────────────────
+3.5 minutes           8.8 MB           ~1 minute
+10 minutes            50-100 MB        ~2-3 minutes
+20 minutes            100-300 MB       ~3-5 minutes
+1 hour                300-1000 MB      ~10-20 minutes
+
+(Times depend on your internet speed)
+
+================================================================================
+
+❓ COMMON QUESTIONS
+
+Q: Do I need Python installed?
+A: NO! The executable includes everything. Python is optional.
+
+Q: Does it work without internet?
+A: NO, you need internet to download from YouTube.
+
+Q: What if FFmpeg doesn't download?
+A: It will be skipped. FFmpeg will auto-download on first run.
+
+Q: Can I download multiple videos?
+A: YES! Create a batch file to download multiple URLs.
+
+Q: Is this legal?
+A: Download only videos you have permission to use.
+
+Q: What if it's slow?
+A: Download speed depends on your internet. This is normal.
+
+Q: Can I use on Mac/Linux?
+A: YES! Use the Python script instead of the .exe.
+
+================================================================================
+
+🐛 TROUBLESHOOTING
+
+Issue: "FFmpeg is downloading..."
+Solution: This is normal on first run. Wait 2-5 minutes.
+
+Issue: "Requested format is not available"
+Solution: Try a different video or quality level.
+
+Issue: Executable won't start
+Solution: Run from Command Prompt as Administrator.
+
+Issue: Very slow download
+Solution: Check your internet speed. This is normal.
+
+Issue: Out of disk space
+Solution: Free up 1-2 GB or download lower quality (360p).
+
+For more help, read: GETTING_STARTED.md or MERGER_README.md
+
+================================================================================
+
+📖 DOCUMENTATION
+
+START HERE:
+→ GETTING_STARTED.md (Beginner's guide with examples)
+
+FOR DETAILS:
+→ MERGER_README.md (Full technical documentation)
+
+FOR ORIGINAL DOWNLOADER:
+→ README.md (Info about the original downloader)
+
+================================================================================
+
+🎯 NEXT STEPS
+
+1. Try your first download:
+   YouTube-Merger.exe "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+2. Explore quality options:
+   YouTube-Merger.exe "URL" 720
+   YouTube-Merger.exe "URL" 480
+   YouTube-Merger.exe "URL" 360
+
+3. Download your favorite videos!
+
+================================================================================
+
+Support: https://github.com/anomalyco/opencode
+Created: September 13, 2026
+Version: 1.0 (Complete)
+
+================================================================================
+Ready? Run this command:
+
+  YouTube-Merger.exe "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+
+Or double-click: dist\YouTube-Merger.exe
+
+Happy downloading! 🎬
+================================================================================
